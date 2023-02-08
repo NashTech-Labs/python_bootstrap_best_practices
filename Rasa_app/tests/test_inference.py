@@ -1,13 +1,14 @@
 """Test cases for inference"""
 import json
+
 import pytest
 from flask import Flask, jsonify
+
 
 def ping():
     """health check"""
     ping_response = jsonify({"status": "OK"}), 200
     return ping_response
-
 
 
 @pytest.fixture

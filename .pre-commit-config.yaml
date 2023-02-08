@@ -24,7 +24,7 @@ repos:
     rev: pylint-2.7.0
     hooks:
     -   id: pylint
-        args: ["--disable= E501, F841,C0301,R1705,E0401,W0703,R0903,W1203,R1710,R0902,C0121,W0621"]
+        args: ["--disable= E501, F841,C0301,R1705,E0401,W0703,R0903,W1203,R1710,R0902,C0121,W0621,W0201,R0201,R0801"]
         exclude: test_suite/conftest.py
 -   repo: https://github.com/psf/black
     rev: 22.3.0

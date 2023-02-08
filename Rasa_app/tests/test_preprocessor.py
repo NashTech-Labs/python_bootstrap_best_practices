@@ -1,12 +1,13 @@
 """Test cases for preprocessor"""
 import os
+
 import PyPDF2
-import pytest
 from fpdf import FPDF
 
 
 class PDFExtractor:
     """pdf extractor class"""
+
     def pdf_extract(self, ext_dir, source_dir, filename):
         """extracting data from POSTED pdf file"""
         self.extract_directory = ext_dir
@@ -14,8 +15,8 @@ class PDFExtractor:
         self.filename = filename
 
         with open((os.path.join(self.source_directory, self.filename)), "rb") as pdf_file, open(
-                (os.path.join(self.extract_directory, "message.txt")),
-                "w",
+            (os.path.join(self.extract_directory, "message.txt")),
+            "w",
         ) as text_file:
             read_pdf = PyPDF2.PdfFileReader(pdf_file)
             number_of_pages = read_pdf.getNumPages()
@@ -29,7 +30,10 @@ class PDFExtractor:
 
 
 class TestPDFExtract:
+    """pdf extractor TESTclass"""
+
     def test_pdf_extract(self, tmpdir):
+        """testing pdf extractor"""
         # setup
         ext_dir = tmpdir.mkdir("extract")
         source_dir = tmpdir.mkdir("source")
@@ -52,4 +56,3 @@ class TestPDFExtract:
         # verify the extracted text file
         extracted_text_file = ext_dir.join("message.txt")
         assert extracted_text_file.read() == "Test PDF content"
-
