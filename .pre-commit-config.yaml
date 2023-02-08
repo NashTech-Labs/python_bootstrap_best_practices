@@ -1,0 +1,55 @@
+
+default_language_version:
+    python: python3.8
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+    -   id: check-ast
+    -   id: mixed-line-ending
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+#    -   id: check-json
+    -   id: check-yaml
+    -   id: debug-statements
+    -   id: requirements-txt-fixer
+    -   id: detect-private-key
+    -   id: check-docstring-first
+-   repo: https://github.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+    -   id: flake8
+        args: ["--ignore= E501,E712"]
+-   repo: https://github.com/pycqa/pylint
+    rev: pylint-2.7.0
+    hooks:
+    -   id: pylint
+        args: ["--disable= E501, F841,C0301,R1705,E0401,W0703,R0903,W1203,R1710,R0902,C0121,W0621"]
+        exclude: test_suite/conftest.py
+-   repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+    -   id: black
+        language: python
+        types: [python]
+        args: ["--line-length=100"]
+        exclude: ^test_suite/
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+    -   id: isort
+        name: Sorting import statements
+        language: python
+        args: [--filter-files]
+        files: \.py$
+-   repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
+    rev: v1.0.6
+    hooks:
+    -   id: python-bandit-vulnerability-check
+        args: ["--disable= B605"]
+-   repo: https://github.com/best-doctor/pre-commit-hooks
+    rev: v1.0.11
+    hooks:
+    -   id: old-style-annotations
+        name: Check old-style annotations
+        language: python

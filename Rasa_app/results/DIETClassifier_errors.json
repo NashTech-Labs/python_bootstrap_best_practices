@@ -1,0 +1,2270 @@
+[
+  {
+    "text": "Below ADD in the bl Trade Register Number of GVR Enterprises AACFG9025BCH001",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "ADD",
+        "entity": "action"
+      },
+      {
+        "start": 17,
+        "end": 19,
+        "value": "bl",
+        "entity": "asset"
+      },
+      {
+        "start": 61,
+        "end": 76,
+        "value": "AACFG9025BCH001",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9995306730270386,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 17,
+        "end": 19,
+        "confidence_entity": 0.9963048696517944,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "address",
+        "start": 45,
+        "end": 60,
+        "confidence_entity": 0.7766603231430054,
+        "value": "GVR Enterprises",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9994070529937744,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 17,
+        "end": 19,
+        "confidence_entity": 0.9661527872085571,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "address",
+        "start": 45,
+        "end": 60,
+        "confidence_entity": 0.599862813949585,
+        "value": "GVR Enterprises",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please add below email in the Notify party skushtoban@marsalu.com",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "add",
+        "entity": "action"
+      },
+      {
+        "start": 43,
+        "end": 65,
+        "value": "skushtoban@marsalu.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9995597004890442,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9993215799331665,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please remove total Gross Weight IN description column yellow highlighted",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "remove",
+        "entity": "action"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "value": "Gross Weight",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9988786578178406,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.9890913963317871,
+        "value": "Gross Weight",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9546415209770203,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.8990244269371033,
+        "value": "Gross Weight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Could you please urgently check below BL amendment request and release revised BL draft copy asap.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 40,
+        "value": "BL",
+        "entity": "asset"
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "value": "amendment",
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 38,
+        "end": 40,
+        "confidence_entity": 0.9984104633331299,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.9985413551330566,
+        "value": "amendment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 79,
+        "end": 81,
+        "confidence_entity": 0.9901464581489563,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.9745201468467712,
+        "value": "amendment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Request amendment on subject BL and please add word Shampoo after lifebuoy.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "amendment",
+        "entity": "action"
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "value": "BL",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.999404788017273,
+        "value": "amendment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.9986473917961121,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.9992231130599976,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.9982763528823853,
+        "value": "amendment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.9872021079063416,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.9983952641487122,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Update number of package and weight as per below, vessel about to sail Please urgently provide revised BL draft",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Update",
+        "entity": "action"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "weight",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9993265867233276,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9855199456214905,
+        "value": "weight",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 103,
+        "end": 105,
+        "confidence_entity": 0.997368335723877,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9279851317405701,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please remove HEAVY MACHINERY DEALERSHIP FOREWIN LIMITED and replace with only HMD FOREWIN",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "remove",
+        "entity": "action"
+      },
+      {
+        "start": 30,
+        "end": 56,
+        "value": "DEALERSHIP FOREWIN LIMITED",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9993219375610352,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9875997304916382,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please issue seaway bill as per attached draft.Final seaway bill issued with incorrect GROSS WEIGHT.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 87,
+        "end": 92,
+        "confidence_entity": 0.5646571516990662,
+        "value": "GROSS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please amend the draft as below",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.5447969436645508,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please kindly note: When calling for assistance please provide automated system with case number. The case number provided leads customers to a designated team to specifically manage your bookings and documentation needs.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 144,
+        "end": 154,
+        "confidence_entity": 0.5179356336593628,
+        "value": "designated",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "* All cut off are subject to change. Shipper's trucker is responsible to confirm the ERD & CUT OFF dates before picking up the empty container from terminal.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "data_to_update",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.969774067401886,
+        "value": "Shipper",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.6146897077560425,
+        "value": "Shipper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2 seal number is updated against container number",
+    "entities": [
+      {
+        "start": 2,
+        "end": 6,
+        "value": "seal",
+        "entity": "asset"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "value": "updated",
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 2,
+        "end": 6,
+        "confidence_entity": 0.9989118576049805,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.9990819692611694,
+        "value": "updated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.9991087317466736,
+        "value": "container",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 2,
+        "end": 6,
+        "confidence_entity": 0.9987772107124329,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.9940539002418518,
+        "value": "updated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.9806097149848938,
+        "value": "container",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please provide revise MBL correctly!!!",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "revise",
+        "entity": "action"
+      },
+      {
+        "start": 22,
+        "end": 25,
+        "value": "MBL",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.999421238899231,
+        "value": "revise",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.992495059967041,
+        "value": "revise",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "UPDATE THE address with ELITE ENTERPRISE NAD JUNCTION,PIN 530008 A.P",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "UPDATE",
+        "entity": "action"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "address",
+        "entity": "asset"
+      },
+      {
+        "start": 24,
+        "end": 68,
+        "value": "ELITE ENTERPRISE NAD JUNCTION,PIN 530008 A.P",
+        "entity": "address"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.999638557434082,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9663683772087097,
+        "value": "address",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.2827375531196594,
+        "value": "NAD",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9987791180610657,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "UPDATE THE address with GVR ENTERPRISES58-,GOWRI NAGAR",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "UPDATE",
+        "entity": "action"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "address",
+        "entity": "asset"
+      },
+      {
+        "start": 24,
+        "end": 54,
+        "value": "GVR ENTERPRISES58-,GOWRI NAGAR",
+        "entity": "address"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9996135830879211,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9766733050346375,
+        "value": "address",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 49,
+        "end": 54,
+        "confidence_entity": 0.30789458751678467,
+        "value": "NAGAR",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.998251736164093,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Plz add below email in the Notify party michal@gmail.com",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "add",
+        "entity": "action"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "value": "michal@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9960696697235107,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.6062881946563721,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "please Update  the BL with correct CBM",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "Update",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 21,
+        "value": "BL",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9996521472930908,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.9988971948623657,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.8986784815788269,
+        "value": "CBM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9810501933097839,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.9794498682022095,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please amend Gross weight to 24550 kg",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "amend",
+        "entity": "action"
+      },
+      {
+        "start": 13,
+        "end": 25,
+        "value": "Gross weight",
+        "entity": "asset"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "value": "24550 kg",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9986704587936401,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.53,
+        "value": "Gross weight",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 35,
+        "end": 37,
+        "confidence_entity": 0.6557855010032654,
+        "value": "kg",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9993274211883545,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.4712539613246918,
+        "value": "Gross",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.35550060868263245,
+        "value": "weight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Plz update DP # and HD container for booking # 14441154",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "update",
+        "entity": "action"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "value": "container",
+        "entity": "asset"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "value": "14441154",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9994357228279114,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 14,
+        "end": 15,
+        "confidence_entity": 0.84344881772995,
+        "value": "#",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 23,
+        "end": 32,
+        "confidence_entity": 0.9981250166893005,
+        "value": "container",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9984099864959717,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 14,
+        "end": 15,
+        "confidence_entity": 0.9643035531044006,
+        "value": "#",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 23,
+        "end": 32,
+        "confidence_entity": 0.9862614274024963,
+        "value": "container",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dear Karishma Additional free time 10 days purchased. Please update the 14 days free time on BL draft and fwd us therevised BL draft  and invoice We need SWB for this shipment",
+    "entities": [
+      {
+        "start": 61,
+        "end": 67,
+        "value": "update",
+        "entity": "action"
+      },
+      {
+        "start": 93,
+        "end": 95,
+        "value": "BL",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Please remove HEAVY MACHINERY DEALERSHIP",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "remove",
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9994626641273499,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.9914701581001282,
+        "value": "DEALERSHIP",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9990323781967163,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.983437180519104,
+        "value": "DEALERSHIP",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Booking amendment: Please use our online tool Booking amendment request  or via the Hapag-Lloyd Navigator",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.9316824674606323,
+        "value": "amendment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please remove seal# 210041 for cont# FANU 125550",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "remove",
+        "entity": "action"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "seal#",
+        "entity": "asset"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "cont#",
+        "entity": "asset"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "value": "FANU 125550",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9997112154960632,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9989205598831177,
+        "value": "seal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "serial_no",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.3027414083480835,
+        "value": "210041",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.536022961139679,
+        "value": "125550",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9994325041770935,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9994440674781799,
+        "value": "seal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "serial_no",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.638329267501831,
+        "value": "125550",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "plz Update the total gross weight to 15570.0KG",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "Update",
+        "entity": "action"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "value": "gross weight",
+        "entity": "asset"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "value": "15570.0KG",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9993830919265747,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.5753153562545776,
+        "value": "gross",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.4379788935184479,
+        "value": "weight",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.44194871187210083,
+        "value": "15570.0KG",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9995747208595276,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "data_to_update",
+        "start": 21,
+        "end": 33,
+        "confidence_entity": 0.52,
+        "value": "gross weight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "your  team change the no of pcs. See below screen short for yout reference, kindly updated & provide us revised BL checking copy",
+    "entities": [
+      {
+        "start": 83,
+        "end": 90,
+        "value": "updated",
+        "entity": "action"
+      },
+      {
+        "start": 112,
+        "end": 114,
+        "value": "BL",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Please amend consignee and notify as per below and share revised BL.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "amend",
+        "entity": "action"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "consignee",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9996126294136047,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.5293762683868408,
+        "value": "consignee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 65,
+        "end": 67,
+        "confidence_entity": 0.9485325217247009,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9995113611221313,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.7178739309310913,
+        "value": "consignee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 65,
+        "end": 67,
+        "confidence_entity": 0.9525798559188843,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please amend the shipper item & remove (THE FREE ZONE) from it to read as the following:",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "amend",
+        "entity": "action"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "value": "shipper",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9400532841682434,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.9774698615074158,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please note consignee name is been amend . please update your records accordingly.  RegardsShweta Dixit.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "consignee name",
+        "entity": "asset"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "amend",
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 12,
+        "end": 26,
+        "confidence_entity": 0.5694003105163574,
+        "value": "consignee name",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9994637370109558,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 50,
+        "end": 56,
+        "confidence_entity": 0.9995368719100952,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 12,
+        "end": 26,
+        "confidence_entity": 0.6272634863853455,
+        "value": "consignee name",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9982385635375977,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 50,
+        "end": 56,
+        "confidence_entity": 0.998781144618988,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please find attached revised MBL with updated weight.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 32,
+        "confidence_entity": 0.7427470088005066,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.994273841381073,
+        "value": "updated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 46,
+        "end": 52,
+        "confidence_entity": 0.588630199432373,
+        "value": "weight",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 32,
+        "confidence_entity": 0.8530313372612,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 38,
+        "end": 52,
+        "confidence_entity": 0.3131183087825775,
+        "value": "updated weight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Attachments: HLCUDX3220834583 .pdf",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "serial_no",
+        "start": 13,
+        "end": 29,
+        "confidence_entity": 0.9984495639801025,
+        "value": "HLCUDX3220834583",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 13,
+        "end": 29,
+        "confidence_entity": 0.9989237189292908,
+        "value": "HLCUDX3220834583",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please provide seaway bl. payment confirmation receipt fyr.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.7576277852058411,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please note BL approved on 29th July Morning and vessel sailed on 30th July . But still invoice showing 2 times  amendment",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.9765648245811462,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 113,
+        "end": 122,
+        "confidence_entity": 0.9838723540306091,
+        "value": "amendment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Subject: RE: Bonded Zone Clause was missed - Now updated for BLHLCUDX3220840958 - SH 30001889 [ ref:_00D0NiQj0._5006M25f9S6:ref ]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 49,
+        "end": 56,
+        "confidence_entity": 0.9993360638618469,
+        "value": "updated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 61,
+        "end": 79,
+        "confidence_entity": 0.9870851635932922,
+        "value": "BLHLCUDX3220840958",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 49,
+        "end": 56,
+        "confidence_entity": 0.9970678687095642,
+        "value": "updated",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 61,
+        "end": 79,
+        "confidence_entity": 0.9967321157455444,
+        "value": "BLHLCUDX3220840958",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "update this BL asap 568432438933",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "update",
+        "entity": "action"
+      },
+      {
+        "start": 12,
+        "end": 14,
+        "value": "BL",
+        "entity": "asset"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "value": "568432438933",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.999728262424469,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.9991931319236755,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9990142583847046,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.9959012866020203,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "PLEASE ADD THE edn 2010629014722",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "ADD",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 32,
+        "value": "2010629014722",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9983501434326172,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9894591569900513,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please update the CARGO IN TRANSIT TO CHINA",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "update",
+        "entity": "action"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "CHINA",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9997159838676453,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "data_to_update",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9894399046897888,
+        "value": "CARGO",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9979738593101501,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "data_to_update",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9836065769195557,
+        "value": "CARGO",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "PLEASE Add THE BL: 2010629014722",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "Add",
+        "entity": "action"
+      },
+      {
+        "start": 15,
+        "end": 17,
+        "value": "BL",
+        "entity": "asset"
+      },
+      {
+        "start": 19,
+        "end": 32,
+        "value": "2010629014722",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9984277486801147,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9983959794044495,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9955604076385498,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "asset",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9940758943557739,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Subject:  Amendment ... Shipment# 27011551, HLCUDX3220834583 ///Consignee BASRA OIL COMPANY",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "Amendment",
+        "entity": "action"
+      },
+      {
+        "start": 44,
+        "end": 60,
+        "value": "HLCUDX3220834583",
+        "entity": "serial_no"
+      },
+      {
+        "start": 64,
+        "end": 73,
+        "value": "Consignee",
+        "entity": "asset"
+      },
+      {
+        "start": 74,
+        "end": 91,
+        "value": "BASRA OIL COMPANY",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.9986516833305359,
+        "value": "Amendment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 64,
+        "end": 73,
+        "confidence_entity": 0.7586010098457336,
+        "value": "Consignee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.9952334761619568,
+        "value": "Amendment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 64,
+        "end": 73,
+        "confidence_entity": 0.5983667373657227,
+        "value": "Consignee",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please add cargo of bakhoor . the amendmentis mot been done has per requested . following on these same from last 4 days expertise on the same",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "add",
+        "entity": "action"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "cargo",
+        "entity": "data_to_update"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "data_to_update",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9933776259422302,
+        "value": "cargo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.9820519089698792,
+        "value": "amendmentis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "data_to_update",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9539821147918701,
+        "value": "cargo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.6889296770095825,
+        "value": "amendmentis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please note we need the changes in seal number add the following as per attachment",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.8515716791152954,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Delete below Highlighted and add freight details",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9697256684303284,
+        "value": "Delete",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9721196293830872,
+        "value": "Delete",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dear Docs team,Pls amend the BL as per below",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9953578114509583,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.7144504189491272,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9951958060264587,
+        "value": "amend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.8775845766067505,
+        "value": "bl",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Kindly confirm exact where we have to remove seal no KMTC106156",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "remove",
+        "entity": "action"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "seal",
+        "entity": "asset"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "value": "KMTC106156",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.9744237065315247,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.9954657554626465,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.8887116312980652,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "delete seal BA3426178493",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "delete",
+        "entity": "action"
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "value": "seal",
+        "entity": "asset"
+      },
+      {
+        "start": 12,
+        "end": 24,
+        "value": "BA3426178493",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.99949049949646,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 12,
+        "end": 24,
+        "confidence_entity": 0.9984046816825867,
+        "value": "BA3426178493",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9991562366485596,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 12,
+        "end": 24,
+        "confidence_entity": 0.9991569519042969,
+        "value": "BA3426178493",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "delete seal with no 24RF213TN42422",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "delete",
+        "entity": "action"
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "value": "seal",
+        "entity": "asset"
+      },
+      {
+        "start": 20,
+        "end": 34,
+        "value": "24RF213TN42422",
+        "entity": "serial_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "asset",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9992750287055969,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.982262909412384,
+        "value": "24RF213TN42422",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "asset",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9976342916488647,
+        "value": "seal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "serial_no",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9937751293182373,
+        "value": "24RF213TN42422",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please update the final destination to Yokohama",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "update",
+        "entity": "action"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "value": "destination",
+        "entity": "asset"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "value": "Yokohama",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9992662072181702,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper",
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.994852602481842,
+        "value": "update",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Kindly remove the digit HS CODE mentioned in the above B/L.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "remove",
+        "entity": "action"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "HS CODE",
+        "entity": "data_to_update"
+      },
+      {
+        "start": 55,
+        "end": 58,
+        "value": "B/L",
+        "entity": "asset"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.909287691116333,
+        "value": "remove",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
