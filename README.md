@@ -1,4 +1,4 @@
-# best practices python
+# Best practices python
 The below repository is present on Knoldus Public Github and contains the multi-module python project with best practices and standards implemented.
 
 
@@ -19,7 +19,7 @@ source ./venv/bin/activate
 ### 3.Next,Copy all the files to the virtual envoirment directory you just created:
 
 
-###Record the dependencies for the project
+### Record the dependencies for the project
 
 ### Python requirments
 Python 3.8
