@@ -118,7 +118,7 @@ List of Code Quality tools used are as follows
 
 ### To run all present checks:
 
-Note:Make sure to initialize git using $git init If it isn't initialized Then
+Note:Make sure to initialize git using $git init ,If it isn't initialized. Then run
 ```
 $pre-commit run --all-files
 
