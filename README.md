@@ -95,6 +95,7 @@ http://localhost:8000/ping
 ```
 ![](get.png)
 
+
 POST: Input a .pdf as a body through postman
 ```
 http://localhost:8000/invocations
@@ -102,8 +103,6 @@ http://localhost:8000/invocations
 ```
 ![](post.png)
 
-
-### Logfile is stored in logs directory in (yyyy-mm-dd) format
 
 # Enforcing Code Quality
 
@@ -117,19 +116,21 @@ List of Code Quality tools used are as follows
 - `black`
 - `isort`
 
-###To run all present checks:
+### To run all present checks:
 
 Note:Make sure to initialize git using $git init If it isn't initialized Then
 ```
 $pre-commit run --all-files
 
 ```
-###Testing
+### Testing
 Testing is performed with pytest. pytest has become the de facto Python unit testing framework.
 Code coverage is provided by
 ```bash
 $ pytest-cov
 ```
+
+### Logfile is stored in logs directory in (yyyy-mm-dd) format
 
 # Container
 
