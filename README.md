@@ -1,11 +1,13 @@
 # Best practices python
 The below repository is present on Knoldus Public Github and contains the multi-module python project with best practices and standards implemented.
 
+# Requirments
+Python 3.8
 
-### Clone
-```
-git clone <repo_name>
-```
+# Package Management
+Create an isolated Python virtual environments. or conda
+
+## Packaging
 
 ### 1.Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it(you can also use  anaconda/any other methods available):
 ```bash
@@ -15,69 +17,138 @@ python3 -m venv ./venv
 ```bash
 source ./venv/bin/activate
 ```
+### 3.Clone the repo to the virtual envoirment directory
+```
+git clone <repo_name>
+```
+## Guide for Package Installation
 
-### 3.Next,Copy all the files to the virtual envoirment directory you just created:
-
-
-### Record the dependencies for the project
-
-### Python requirments
-Python 3.8
-
-### First, update the pip library
+### Updating the pip library
 ```
 $python -m pip install --upgrade pip
 ```
-### install requirments
+### Requirments
 ```
 pip install -r requirements.txt 
 ```
+# Project Structure
+
+``` {.RasaApp .}
+├── actions
+│   └── actions.py
+├── app.py
+├── config
+│   └── config.ini
+├── config.yml
+├── credentials.yml
+├── data
+│   ├── Entity_extracted_data
+│   ├── Input_Data
+│   ├── nlu.yml
+│   ├── rules.yml
+│   └── stories.yml
+├── domain.yml
+├── endpoints.yml
+├── lib
+│   ├── config_validator.py
+│   ├── error_handlers.py
+│   ├── logger.py
+│   ├── preprocessor.py
+│   ├── rasa_agent.py
+│   └── response_creator.py
+├── logs
+│   └── 2023_02_08.log
+├── models
+│   └── 20221126-134706.tar.gz
+├── results_model
+│   ├── DIETClassifier_confusion_matrix.png
+│   ├── DIETClassifier_errors.json
+│   ├── DIETClassifier_histogram.png
+│   ├── DIETClassifier_report.json
+│   ├── intent_confusion_matrix.png
+│   ├── intent_errors.json
+│   ├── intent_histogram.png
+│   └── intent_report.json
+└── tests
+    ├── test_inference.py
+    └── test_preprocessor.py
+
+```
 
 
+# User Guide
 
-#### Usage/Run
 
-### Remove the .gitkeep file present inside Rasa_app/data/Input_data & Rasa_app/data/Entity_extracted_data (If it is present)
+### Remove the .gitkeep file present inside data/Input_data & data/Entity_extracted_data (Check for hidden files to make sure)
 
-###  on local
+###  To Run
 ```
 $python3 app.py
 ```
 
-### Check the app through Postman(the app will run on localhost:8000)
+### Check the app through Postman (the app will run on localhost:8000)
 
 GET: Check whether the server is running or not
 ```
 http://localhost:8000/ping
 
 ```
+![](get.png)
 
 POST: Input a .pdf as a body through postman
 ```
 http://localhost:8000/invocations
 
 ```
+![](post.png)
 
-### Logfile is stored in logs directory according in (yyyy-mm-dd) format
 
+### Logfile is stored in logs directory in (yyyy-mm-dd) format
 
-### on Docker
+# Enforcing Code Quality
 
-### docker build 
-```
-docker build -t <image_name> .
+Automated code quality checks are performed using [pre-commit](https://pre-commit.com/). Code quality tool are present in .pre-commit-config.yaml file.
 
-```
-### docker run
-```
-docker run -t <image_name> .
-```
+List of Code Quality tools used are as follows
 
-### Check Code Quality
+- `flake8`
+- `pylint` 
+- `bandit`
+- `black`
+- `isort`
 
+###To run all present checks:
+
+Note:Make sure to initialize git using $git init If it isn't initialized Then
 ```
 $pre-commit run --all-files
 
 ```
+###Testing
+Testing is performed with pytest. pytest has become the de facto Python unit testing framework.
+Code coverage is provided by
+```bash
+$ pytest-cov
+```
+
+# Container
+
+[Docker](https://www.docker.com/) is a tool that allows for software to be packaged into isolated
+containers.
+
+
+To build the container image:
+
+```bash
+$ docker build -t <image_name> .
+```
+
+To run the image in a container:
+
+```bash
+$ docker run <image_name>
+```
+
+
 
 
