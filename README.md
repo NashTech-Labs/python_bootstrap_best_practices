@@ -1,7 +1,7 @@
-# Best practices python
+# Best Practices Python
 The below repository is present on Knoldus Public Github and contains the multi-module python project with best practices and standards implemented.
 
-# Requirments
+# Requirnments
 Python 3.8
 
 # Package Management
