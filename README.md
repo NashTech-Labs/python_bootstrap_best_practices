@@ -106,7 +106,7 @@ http://localhost:8000/invocations
 
 # Enforcing Code Quality
 
-Automated code quality checks are performed using [pre-commit](https://pre-commit.com/). Code quality tool are present in .pre-commit-config.yaml file.
+Automated code quality checks are performed using [pre-commit](https://pre-commit.com/). Code quality tool are present in .pre-commit-config.yaml file. Additional code quality tools can be added or removed through the .pre-commit-config.yaml file
 
 List of Code Quality tools used are as follows
 
