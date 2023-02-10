@@ -118,11 +118,19 @@ List of Code Quality tools used are as follows
 
 ### To run all present checks:
 
-Note:Make sure to initialize git using $git init ,If it isn't initialized. Then run
+Note:Make sure to initialize git using below command,If it isn't initialized.
+```
+$git init
+```
+Add all the files to staging by using 
+```
+$git add .
+```
+Run code quality checks
 ```
 $pre-commit run --all-files
-
 ```
+
 ### Testing
 Testing is performed with pytest. pytest has become the de facto Python unit testing framework.
 Code coverage is provided by
