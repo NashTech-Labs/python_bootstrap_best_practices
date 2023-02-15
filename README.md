@@ -27,62 +27,52 @@ git clone <repo_name>
 ```
 $python -m pip install --upgrade pip
 ```
-### Requirments
+### Requirements
+Project requirements are present in requirements directory. For installation of the required packages run the following:
 ```
-pip install -r requirements.txt
+python setup.py install
+
 ```
 # Project Structure
 
 ``` {.RasaApp .}
 ├── src
-│   ├── actions
-│   │   └── actions.py
-│   ├── app.py
-│   ├── config
-│   │   └── config.ini
-│   ├── config.yml
-│   ├── credentials.yml
-│   ├── data
-│   │   ├── Entity_extracted_data
-│   │   ├── Input_Data
-│   │   ├── nlu.yml
-│   │   ├── rules.yml
-│   │   └── stories.yml
-│   ├── domain.yml
-│   ├── endpoints.yml
 │   ├── __init__.py
-│   ├── lib
-│   │   ├── config_validator.py
-│   │   ├── error_handlers.py
-│   │   ├── logger.py
-│   │   ├── preprocessor.py
-│   │   ├── rasa_agent.py
-│   │   └── response_creator.py
-│   ├── logs
-│   │   └── 2023_02_15.log
-│   ├── models
-│   │   └── 20221126-134706.tar.gz
-│   └── results
-│       ├── DIETClassifier_confusion_matrix.png
-│       ├── DIETClassifier_errors.json
-│       ├── DIETClassifier_histogram.png
-│       ├── DIETClassifier_report.json
-│       ├── intent_confusion_matrix.png
-│       ├── intent_errors.json
-│       ├── intent_histogram.png
-│       └── intent_report.json
+│   └── rasa_app
+│       ├── actions
+│       │   └── actions.py
+│       ├── config.yml
+│       ├── credentials.yml
+│       ├── data
+│       │   ├── entity_extracted_data
+│       │   ├── input_data
+│       │   ├── nlu.yml
+│       │   ├── rules.yml
+│       │   └── stories.yml
+│       ├── domain.yml
+│       ├── endpoints.yml
+│       ├── __init__.py
+│       └── lib
+│           ├── config_validator.py
+│           ├── error_handlers.py
+│           ├── logger.py
+│           ├── preprocessor.py
+│           ├── rasa_agent.py
+│           └── response_creator.py
 └── tests
     ├── __init__.py
-    ├── test_app.py
-    └── test_preprocessor.py
-
+    └── unit_tests
+        ├── __init__.py
+        ├── test_app.py
+        └── test_preprocessor.py
+        
 ```
 
 
 # User Guide
 
 
-### Remove the .gitkeep file present inside data/Input_data & data/Entity_extracted_data (Check for hidden files to make sure)
+### Remove the .gitkeep file present inside app_data/input_data & app_data/entity_extracted_data (Check for hidden files to make sure)
 
 ###  To Run
 ```
