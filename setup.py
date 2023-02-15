@@ -54,7 +54,7 @@ setup(
     version="0.0.1",
     author="Knoldus Data Science Team",
     author_email="datascience@knoldus.com",
-    url="https://ultigit.ultimatesoftware.com/projects/DS/repos/library-form-parser/browse",
+    url="https://github.com/knoldus/python_bootstrap_best_practices.git",
     packages=find_packages("src"),
     package_dir={"rasa_app": "src/rasa_app"},
     description="This library is used to perform parsing and mapping of the documents.",
