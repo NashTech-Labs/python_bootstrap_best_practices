@@ -1,7 +1,7 @@
 # Best Practices Python
 The below repository is present on Knoldus Public Github and contains the multi-module python project with best practices and standards implemented.
 
-# Requirnments
+# Requirements
 Python 3.8
 
 # Package Management
@@ -34,43 +34,46 @@ pip install -r requirements.txt
 # Project Structure
 
 ``` {.RasaApp .}
-├── actions
-│   └── actions.py
-├── app.py
-├── config
-│   └── config.ini
-├── config.yml
-├── credentials.yml
-├── data
-│   ├── Entity_extracted_data
-│   ├── Input_Data
-│   ├── nlu.yml
-│   ├── rules.yml
-│   └── stories.yml
-├── domain.yml
-├── endpoints.yml
-├── lib
-│   ├── config_validator.py
-│   ├── error_handlers.py
-│   ├── logger.py
-│   ├── preprocessor.py
-│   ├── rasa_agent.py
-│   └── response_creator.py
-├── logs
-│   └── 2023_02_08.log
-├── models
-│   └── 20221126-134706.tar.gz
-├── results_model
-│   ├── DIETClassifier_confusion_matrix.png
-│   ├── DIETClassifier_errors.json
-│   ├── DIETClassifier_histogram.png
-│   ├── DIETClassifier_report.json
-│   ├── intent_confusion_matrix.png
-│   ├── intent_errors.json
-│   ├── intent_histogram.png
-│   └── intent_report.json
+├── src
+│   ├── actions
+│   │   └── actions.py
+│   ├── app.py
+│   ├── config
+│   │   └── config.ini
+│   ├── config.yml
+│   ├── credentials.yml
+│   ├── data
+│   │   ├── Entity_extracted_data
+│   │   ├── Input_Data
+│   │   ├── nlu.yml
+│   │   ├── rules.yml
+│   │   └── stories.yml
+│   ├── domain.yml
+│   ├── endpoints.yml
+│   ├── __init__.py
+│   ├── lib
+│   │   ├── config_validator.py
+│   │   ├── error_handlers.py
+│   │   ├── logger.py
+│   │   ├── preprocessor.py
+│   │   ├── rasa_agent.py
+│   │   └── response_creator.py
+│   ├── logs
+│   │   └── 2023_02_15.log
+│   ├── models
+│   │   └── 20221126-134706.tar.gz
+│   └── results
+│       ├── DIETClassifier_confusion_matrix.png
+│       ├── DIETClassifier_errors.json
+│       ├── DIETClassifier_histogram.png
+│       ├── DIETClassifier_report.json
+│       ├── intent_confusion_matrix.png
+│       ├── intent_errors.json
+│       ├── intent_histogram.png
+│       └── intent_report.json
 └── tests
-    ├── test_inference.py
+    ├── __init__.py
+    ├── test_app.py
     └── test_preprocessor.py
 
 ```
