@@ -29,7 +29,7 @@ $python -m pip install --upgrade pip
 ```
 ### Requirments
 ```
-pip install -r requirements.txt 
+pip install -r requirements.txt
 ```
 # Project Structure
 
@@ -114,7 +114,7 @@ Automated code quality checks are performed using [pre-commit](https://pre-commi
 List of Code Quality tools used are as follows
 
 - `flake8`
-- `pylint` 
+- `pylint`
 - `bandit`
 - `black`
 - `isort`
@@ -125,7 +125,7 @@ Note:Make sure to initialize git using below command,If it isn't initialized.
 ```
 $git init
 ```
-Add all the files to staging by using 
+Add all the files to staging by using
 ```
 $git add .
 ```
@@ -160,7 +160,3 @@ To run the image in a container:
 ```bash
 $ docker run <image_name>
 ```
-
-
-
-

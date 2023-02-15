@@ -12,7 +12,7 @@ class Logger:
         self.__log_file_directory = "logs/"
         self.__log_file_name = time.strftime("%Y_%m_%d") + ".log"
         self.__log_file_path = os.path.join(
-            os.path.dirname(os.path.dirname(__file__)),
+            os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))),
             self.__log_file_directory,
             self.__log_file_name,
         )
@@ -28,7 +28,10 @@ class Logger:
         }
 
     def initialize(self):
-        """creates a logfile"""
+        """
+        creates a logfile
+        :return:
+        """
         logging.basicConfig(
             filename=self.__log_file_path,
             filemode="a",
@@ -40,7 +43,10 @@ class Logger:
         logging.info(f"Logging to {self.__log_file_path}")
 
     def set_log_level(self, level: str):
-        """sets the log levels"""
+        """
+        :param level: log level
+        :return:
+        """
         logger = logging.getLogger()
         logger.setLevel(self.__log_levels[level])
         logging.info(f"Log level is set to {level}:{self.__log_levels[level]}")

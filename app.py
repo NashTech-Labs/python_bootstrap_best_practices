@@ -8,25 +8,32 @@ from flask import Flask, jsonify, request
 from waitress import serve
 from werkzeug.utils import secure_filename
 
-from lib import error_handlers
-from lib.config_validator import ConfigValidator
-from lib.logger import Logger
-from lib.preprocessor import Preprocessor
-from lib.rasa_agent import RasaAgent
-from lib.response_creator import ResponseCreator
+from src.rasa_app.lib import error_handlers
+from src.rasa_app.lib.config_validator import ConfigValidator
+from src.rasa_app.lib.logger import Logger
+from src.rasa_app.lib.preprocessor import Preprocessor
+from src.rasa_app.lib.rasa_agent import RasaAgent
+from src.rasa_app.lib.response_creator import ResponseCreator
 
 # Initializing flask application
 app = Flask(__name__)
 
 
 def allowed_file(filename):
-    """checks for allowed file"""
+    """
+    :param filename: input filename
+    :return: filename
+    """
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
 @app.after_request
 def after_request(response):
-    """stores the response from rasa model"""
+    """
+
+    :param response: Catches rasa model response
+    :return: json
+    """
     timestamp = time.strftime("[%Y-%b-%d %H:%M]")
     logging.info(
         "%s %s %s %s %s %s",
@@ -42,14 +49,19 @@ def after_request(response):
 
 @app.route("/ping", methods=["GET"])
 def ping():
-    """health check"""
+    """
+    :return: status 200
+    """
     ping_response = jsonify({"status": "OK"}), 200
     return ping_response
 
 
 @app.route("/invocations", methods=["POST"])
 def transformations():
-    """POST request and returns ML model response"""
+    """
+    POST request and returns ML model response
+    :return:model result in json
+    """
     # check if the post request has the file part
     if "file" not in request.files:
         raise werkzeug.exceptions.BadRequest()

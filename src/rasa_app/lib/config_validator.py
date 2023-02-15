@@ -13,7 +13,9 @@ class ConfigValidator:
     def __init__(self):
         self.__filename = "config.ini"
         self.__config_directory = "config/"
-        self.__config_directory_path = os.path.dirname(os.path.dirname(__file__))
+        self.__config_directory_path = os.path.dirname(
+            os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+        )
 
         self.__config_keys = [
             "max_content_length_mib",
@@ -39,6 +41,10 @@ class ConfigValidator:
         ]
 
     def __validate(self):
+        """
+        validates the input files
+        :return: config
+        """
         file = os.path.join(self.__config_directory_path, self.__config_directory, self.__filename)
 
         # validating file
@@ -83,7 +89,10 @@ class ConfigValidator:
         return config
 
     def validate_and_getconfig(self):
-        """validate and get the config file"""
+        """
+        validate and get the config file
+        :return:
+        """
         try:
             conf = self.__validate()
             conf["upload_folder"] = os.path.join(

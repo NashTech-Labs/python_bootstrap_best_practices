@@ -6,14 +6,19 @@ from flask import Flask, jsonify
 
 
 def ping():
-    """health check"""
+    """
+    :return:status json
+    """
     ping_response = jsonify({"status": "OK"}), 200
     return ping_response
 
 
 @pytest.fixture
 def app():
-    """mock for flask app"""
+    """
+    mocks the flask app
+    :return: app
+    """
     app = Flask(__name__)
     app.route("/ping", methods=["GET"])(ping)
     return app
@@ -27,7 +32,11 @@ def client(app):
 
 
 def test_ping(client):
-    """test the function ping"""
+    """
+
+    :param client: mock client
+    :return: status json
+    """
     response = client.get("/ping")
     assert response.status_code == 200
     assert json.loads(response.data) == {"status": "OK"}

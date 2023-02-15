@@ -7,7 +7,7 @@ class ResponseCreator:
     """Response creation"""
 
     def __init__(self):
-        """JSON variable constraints"""
+        """constraints"""
         self.action = ""
         self.serial = ""
         self.asset = ""
@@ -33,8 +33,10 @@ class ResponseCreator:
         self.resp_dict = {"applicationName": "HAPAG_FIS", "dateTime": "", "data": []}
 
     def get_response(self, predictions: list):
-        """Fetching response from model and updating JSON
-        returns json
+        """
+        Fetching response from model and updating json
+        :param predictions: predictions
+        :return:  prediction result custom json
         """
         response = copy.deepcopy(self.resp_dict)
         response["dateTime"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")

@@ -7,7 +7,10 @@ blueprint = flask.Blueprint("error_handlers", __name__)
 
 @blueprint.app_errorhandler(400)
 def not_found(error):
-    """error:400"""
+    """
+    :param error: error blueprint
+    :return: status
+    """
     return (
         jsonify({"code": error.code, "name": error.name, "description": error.description}),
         400,
@@ -16,7 +19,9 @@ def not_found(error):
 
 @blueprint.app_errorhandler(404)
 def bad_request(error):
-    """error:404"""
+    """
+    :param error: error blueprint
+    :return: status"""
     return (
         jsonify({"code": error.code, "name": error.name, "description": error.description}),
         404,
@@ -25,7 +30,10 @@ def bad_request(error):
 
 @blueprint.app_errorhandler(405)
 def method_not_allowed(error):
-    """error:405"""
+    """
+    :param error: error blueprint
+    :return: status
+    """
     return (
         jsonify({"code": error.code, "name": error.name, "description": error.description}),
         405,
@@ -34,7 +42,10 @@ def method_not_allowed(error):
 
 @blueprint.app_errorhandler(413)
 def request_entity_too_large(error):
-    """error:413"""
+    """
+    :param error: error blueprint
+    :return: status
+    """
     return (
         jsonify({"code": error.code, "name": error.name, "description": error.description}),
         413,
@@ -43,7 +54,10 @@ def request_entity_too_large(error):
 
 @blueprint.app_errorhandler(414)
 def request_uri_too_long(error):
-    """error:414"""
+    """
+    :param error: error blueprint
+    :return: status
+    """
     return (
         jsonify({"code": error.code, "name": error.name, "description": error.description}),
         414,
@@ -52,7 +66,10 @@ def request_uri_too_long(error):
 
 @blueprint.app_errorhandler(500)
 def internal_server_error(error):
-    """error:500"""
+    """
+    :param error: error blueprint
+    :return: status
+    """
     return (
         jsonify({"code": error.code, "name": error.name, "description": error.description}),
         500,

@@ -9,7 +9,12 @@ class PDFExtractor:
     """pdf extractor class"""
 
     def pdf_extract(self, ext_dir, source_dir, filename):
-        """extracting data from POSTED pdf file"""
+        """
+        :param ext_dir: extraction directory
+        :param source_dir: input directory
+        :param filename: filename
+        :return: txt file
+        """
         self.extract_directory = ext_dir
         self.source_directory = source_dir
         self.filename = filename
@@ -30,10 +35,13 @@ class PDFExtractor:
 
 
 class TestPDFExtract:
-    """pdf extractor TESTclass"""
+    """pdf extractor test class"""
 
     def test_pdf_extract(self, tmpdir):
-        """testing pdf extractor"""
+        """
+        :param tmpdir: temp directory
+        :return: txt file
+        """
         # setup
         ext_dir = tmpdir.mkdir("extract")
         source_dir = tmpdir.mkdir("source")

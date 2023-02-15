@@ -17,22 +17,30 @@ class RasaAgent:
         self.error_message = "Rasa model not found"
 
     def load_model(self, model_path: str) -> None:
-        """Loading model file"""
+        """
+        loads nlu model
+        :param model_path: model directory
+        :return:
+        """
         self.agent = Agent.load(model_path)
         logging.info("NLU model loaded")
 
     def __message(self, message: str) -> str:
-        """Sending the preprocessed message to rasa model as input
-        return output string
+        """
+        :param message: input pattern txt
+        :return: result string
         """
         assert self.agent, self.error_message
         message = message.strip()
         result = asyncio.run(self.agent.parse_message_using_nlu_interpreter(message))
-        # print(result)
         return json_to_string(result)
 
     def get_predictions(self, sentence_list: list):
-        """Function to Retrive the prediction json"""
+        """
+        Function to Retrieve the prediction
+        :param sentence_list: predicted sentences
+        :return: json result
+        """
         result = []
         try:
             for sentence in sentence_list:

@@ -11,7 +11,9 @@ class Preprocessor:
     """preprocessor class with constraints"""
 
     def __init__(self):
-        """preprocessor functon with constraints"""
+        """
+        constraints
+        """
         self.extractor = extract_msg
         self.filename = ""
         self.extract_directory = ""
@@ -28,14 +30,25 @@ class Preprocessor:
         ]
 
     def validate_file(self, source_dir, filename):
-        """Validating the POST file"""
+        """
+
+        :param source_dir: input directory
+        :param filename: filename
+        :return: validation
+        """
         self.source_directory = source_dir
         self.filename = filename
         results = validation.validate(os.path.join(source_dir, self.filename))
         return results["olefile"]["valid"]
 
     def pdf_extract(self, ext_dir, source_dir, filename):
-        """extracting data from POSTED pdf file"""
+        """
+
+        :param ext_dir:extraction directory
+        :param source_dir: input directory
+        :param filename: filename
+        :return: extracted txt file
+        """
         self.extract_directory = ext_dir
         self.source_directory = source_dir
         self.filename = filename
@@ -56,7 +69,11 @@ class Preprocessor:
         text_file.close()
 
     def download_all_attachments(self, ext_dir):
-        """Function to download attachments from POST:eml file"""
+        """
+        downloads all attachments and messages
+        :param ext_dir: extraction directory
+        :return:
+        """
         self.extract_directory = ext_dir
 
         message = self.extractor.openMsg(os.path.join(self.source_directory, self.filename))
@@ -65,7 +82,9 @@ class Preprocessor:
         message.save(customPath=self.extract_directory, useMsgFilename=True)
 
     def extract_pdf_patterns(self):
-        """Extracting pattern for POST:pdf file"""
+        """
+        :return: dict for extracted pdf patterns
+        """
         results = {}
         for file in os.listdir(self.extract_directory):
             if file.endswith(".txt"):
@@ -99,7 +118,9 @@ class Preprocessor:
         return results
 
     def extract_patterns(self):
-        """Extracting pattern for POST:eml file"""
+        """
+        :return: dict for extracted eml patterns
+        """
         results = {}
         for __, directories, _ in os.walk(self.extract_directory):
             for directory in directories:

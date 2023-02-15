@@ -9,7 +9,7 @@ RUN python3 -m pip install --upgrade pip && \
 
 
 ENV PATH="/opt/program:${PATH}"
-COPY Rasa_app /opt/code
+COPY dummy_app /opt/code
 WORKDIR /opt/code
 EXPOSE 8000
 ENTRYPOINT ["python3", "inference.py"]
